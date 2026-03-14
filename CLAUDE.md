@@ -2,6 +2,16 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Session State
+
+**IMPORTANT: Always read SESSION_STATE.md at the start of each session** to understand the current state of the project, recent changes, and any pending tasks. This file is maintained locally and never pushed to GitHub.
+
+**At the end of each session:** Update SESSION_STATE.md with:
+- What was accomplished
+- Current status of the website
+- Any pending tasks or notes for the next session
+- Repository structure if it changed
+
 ## Project Overview
 
 This is a personal academic website for Daniel P. Gross, hosted on GitHub Pages. It is a static HTML/CSS site showcasing publications, working papers, other writing, and public datasets.

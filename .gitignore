@@ -1,0 +1,14 @@
+# Local development files - never commit these
+SESSION_STATE.md
+.claude/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
