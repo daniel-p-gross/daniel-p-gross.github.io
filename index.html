@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel P. Gross | Duke University Fuqua School of Business</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="index.html" class="site-title">Daniel P. Gross</a>
+            <nav>
+                <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+                <ul class="nav-links">
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="workingpapers.html">Working Papers</a></li>
+                    <li><a href="otherwriting.html">Other Writing</a></li>
+                    <li><a href="publicdata.html">Public Data</a></li>
+                    <li><a href="index.html" class="active">About Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="about">
+            <div class="about-sidebar">
+                <img src="photo.jpg" alt="Daniel P. Gross" class="headshot">
+                <a href="https://www.dropbox.com/s/mn2ymehuyh97z48/cv_gross.pdf?dl=0" class="cv-link">Curriculum Vitae</a>
+            </div>
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>I am an associate professor in the Strategy area at Duke's Fuqua School of Business, and a Faculty Research Fellow at the National Bureau of Economic Research (NBER).</p>
+
+                <p>My research studies the causes and consequences of technological change. This work has examined (i) crisis innovation and innovation policy, (ii) the impacts of automation on firms, workers, and labor markets, (iii) links between innovation and entrepreneurial activity, and (iv) the use of incentives and other tools in managing creative workers within organizations, among other topics. I frequently use historical examples of industries undergoing significant change to study recurrent and modern economic, strategic, and policy questions. This research has been published in leading academic outlets such as the <em>American Economic Review</em>, <em>Quarterly Journal of Economics</em>, <em>Management Science</em>, and <em>Research Policy</em>; covered in national and international outlets including the <em>New York Times</em>, NPR, <em>The Atlantic</em>, Vox, <em>The Economist</em>, and <em>Harvard Business Review</em>, as well as podcasts such as NPR's <em>Planet Money</em> and <em>Freakonomics Radio</em>; and cited in Congressional testimony, Congressional committee reports, the <em>Economic Report of the President</em>, and reports from leading policy institutes such as the Brookings Institution and American Enterprise Institute. My work is or has previously been funded by the National Science Foundation, the Alfred P. Sloan Foundation, and the Ewing Marion Kauffman Foundation (through the NBER).</p>
+
+                <p>I received my Ph.D. in economics from the University of California, Berkeley, where I was a National Science Foundation graduate fellow. Prior to graduate school, I worked in management consulting, policy research, and at a high-growth startup that achieved a successful exit.</p>
+
+                <p>My email address can be found in my CV. Papers are on my <a href="publications.html">research page</a>.</p>
+
+                <p>My official (but less frequently updated) Duke University profile is <a href="https://www.fuqua.duke.edu/faculty/daniel-gross">here</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 by Daniel P. Gross</p>
+    </footer>
+
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
