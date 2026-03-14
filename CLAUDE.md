@@ -14,7 +14,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a personal academic website for Daniel P. Gross, hosted on GitHub Pages. It is a static HTML/CSS site showcasing publications, working papers, other writing, and public datasets.
+This is a personal academic website for Daniel P. Gross, hosted on GitHub Pages. It is a static HTML/CSS site showcasing publications, working papers, public datasets, media coverage, and policy/legal impact.
 
 ## Architecture
 
@@ -28,8 +28,10 @@ This is a personal academic website for Daniel P. Gross, hosted on GitHub Pages.
 - `index.html` - About/homepage with biography and headshot
 - `publications.html` - Published research papers organized by theme
 - `workingpapers.html` - Work in progress and ongoing projects
-- `otherwriting.html` - Placeholder for future content
 - `publicdata.html` - Links to publicly available datasets
+- `conferences.html` - Conference organizing
+- `media.html` - Media mentions (5 sections, descending date order)
+- `impact.html` - Policy briefs, policy citations, legal briefs, legal citations
 - `style.css` - All styling (CSS variables, typography, responsive layout)
 - `photo.jpg` - Headshot image
 
